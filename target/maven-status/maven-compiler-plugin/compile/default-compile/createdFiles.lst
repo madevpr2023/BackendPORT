@@ -1,6 +1,7 @@
 com\portfolio\proyectoml\Secure\Service\UserServ.class
 com\portfolio\proyectoml\Service\HardSkillServ.class
 com\portfolio\proyectoml\Model\Educacion.class
+com\portfolio\proyectoml\Secure\Config\Config.class
 com\portfolio\proyectoml\DTO\ProyectosDTO.class
 com\portfolio\proyectoml\Model\Persona.class
 com\portfolio\proyectoml\Repository\EducacionCompRep.class
@@ -23,7 +24,6 @@ com\portfolio\proyectoml\Secure\DTO\LoginUser.class
 com\portfolio\proyectoml\Service\EducacionServ.class
 com\portfolio\proyectoml\DTO\HardSkillDTO.class
 com\portfolio\proyectoml\Model\Proyectos.class
-com\portfolio\proyectoml\Secure\Config\BeanConfig.class
 com\portfolio\proyectoml\Secure\Entity\User.class
 com\portfolio\proyectoml\Repository\SoftSkillRep.class
 com\portfolio\proyectoml\Secure\DTO\NuevoUsuario.class

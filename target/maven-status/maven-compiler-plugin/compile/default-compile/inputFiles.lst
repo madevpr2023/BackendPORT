@@ -2,7 +2,6 @@ C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Enums\RolName.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Entity\UserPrincipal.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Controller\EducacionController.java
-C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Config\BeanConfig.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Service\ExperienciaServ.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Repository\ExperienciaRep.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\MainSecurity.java
@@ -47,6 +46,7 @@ C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\JWT\JwtFilter.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Entity\Role.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Model\HardSkill.java
+C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Config\Config.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\JWT\JwtProvider.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Repository\EducacionCompRep.java
 C:\Users\usuario\Documents\Proyecto Angular\BackEnd\proyectoml\src\main\java\com\portfolio\proyectoml\Secure\Service\UserServ.java

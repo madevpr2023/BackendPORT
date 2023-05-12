@@ -10,7 +10,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -58,7 +57,6 @@ public class ProyectosController {
     
     @DeleteMapping("/eliminarproyectos/{id}")
     
-    
     public ResponseEntity<?> Eliminacion(@PathVariable("id") int id){
     
         if(!proyservice.ExisteId(id)){
@@ -74,8 +72,7 @@ public class ProyectosController {
     }
     
     @PostMapping("/crearproyectos")
-    
-    
+ 
     public ResponseEntity<?> NuevoProyecto(@RequestBody ProyectosDTO dtopr){
     
         if(StringUtils.isBlank(dtopr.getNombre())){
@@ -99,7 +96,6 @@ public class ProyectosController {
     }
     
     @PutMapping("/editarproyectos/{id}")
-    
     
     public ResponseEntity<?> Actualizacion(@PathVariable("id") int id, @RequestBody ProyectosDTO dtopr){
     

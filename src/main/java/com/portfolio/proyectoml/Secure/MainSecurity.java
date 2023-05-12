@@ -32,13 +32,12 @@ public class MainSecurity{
     
     JwtEntryPoint jwtentpoint;
     
-    @Autowired 
-            
-    PasswordEncoder passencoder;
-    
     AuthenticationManager authmanager;
+   
+    @Autowired
     
-    
+    PasswordEncoder passencoder;
+   
     @Bean
     
     public JwtFilter jwtfilter(){
