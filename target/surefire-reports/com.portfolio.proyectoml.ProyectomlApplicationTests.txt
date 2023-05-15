@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.portfolio.proyectoml.ProyectomlApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.939 s - in com.portfolio.proyectoml.ProyectomlApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.284 s - in com.portfolio.proyectoml.ProyectomlApplicationTests
