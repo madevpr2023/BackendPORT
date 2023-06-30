@@ -10,17 +10,17 @@ public class EducacionCompDTO {
     private String curso;
     private String anioInicio;
     private String anioFin;
-    private String img;
+
 
     public EducacionCompDTO() {
     }
 
-    public EducacionCompDTO(String institucion, String curso, String anioInicio, String anioFin, String img) {
+    public EducacionCompDTO(String institucion, String curso, String anioInicio, String anioFin) {
         this.institucion = institucion;
         this.curso = curso;
         this.anioInicio = anioInicio;
         this.anioFin = anioFin;
-        this.img = img;
+        
     }
 
     public String getInstitucion() {
@@ -55,13 +55,6 @@ public class EducacionCompDTO {
         this.anioFin = anioFin;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
 
     
     

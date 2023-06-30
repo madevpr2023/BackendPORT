@@ -13,7 +13,6 @@ public class Educacion {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     
     private int id;
-    private String img;
     private String institucion;
     private String anioInicio;
     private String anioFin;
@@ -22,12 +21,12 @@ public class Educacion {
     public Educacion() {
     }
 
-    public Educacion(String institucion, String anioInicio, String anioFin, String titulo_obtenido, String img) {
+    public Educacion(String institucion, String anioInicio, String anioFin, String titulo_obtenido) {
         this.institucion = institucion;
         this.anioInicio = anioInicio;
         this.anioFin = anioFin;
         this.titulo_obtenido = titulo_obtenido;
-        this.img = img;
+       
     }
 
     public int getId() {
@@ -70,13 +69,7 @@ public class Educacion {
         this.titulo_obtenido = titulo_obtenido;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+   
 
     
     

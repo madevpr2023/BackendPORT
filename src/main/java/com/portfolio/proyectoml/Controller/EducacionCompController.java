@@ -90,7 +90,7 @@ public class EducacionCompController {
             
         }
         
-        EducacionComp educationcomp = new EducacionComp(dtoeduccomp.getInstitucion(), dtoeduccomp.getCurso(), dtoeduccomp.getAnioInicio(), dtoeduccomp.getAnioFin(), dtoeduccomp.getImg());
+        EducacionComp educationcomp = new EducacionComp(dtoeduccomp.getInstitucion(), dtoeduccomp.getCurso(), dtoeduccomp.getAnioInicio(), dtoeduccomp.getAnioFin());
         
         educationcompservice.guardarEducacionComp(educationcomp);
         

@@ -17,17 +17,17 @@ public class EducacionComp {
     private String curso;
     private String anioInicio;
     private String anioFin;
-    private String img;
+    
 
     public EducacionComp() {
     }
 
-    public EducacionComp(String institucion, String curso, String anioInicio, String anioFin, String img) {
+    public EducacionComp(String institucion, String curso, String anioInicio, String anioFin) {
         this.institucion = institucion;
         this.curso = curso;
         this.anioInicio = anioInicio;
         this.anioFin = anioFin;
-        this.img = img;
+       
     }
 
     public int getId() {
@@ -70,13 +70,7 @@ public class EducacionComp {
         this.anioFin = anioFin;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+    
 
     
 

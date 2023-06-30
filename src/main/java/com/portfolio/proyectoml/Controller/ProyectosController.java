@@ -88,7 +88,7 @@ public class ProyectosController {
             
         }
         
-        Proyectos project = new Proyectos(dtopr.getNombre(), dtopr.getImg(), dtopr.getDescripcion() ,dtopr.getLink());
+        Proyectos project = new Proyectos(dtopr.getNombre(), dtopr.getDescripcion() ,dtopr.getLink(), dtopr.getImg());
         
         proyservice.guardarProyectos(project);
         

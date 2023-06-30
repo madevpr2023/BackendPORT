@@ -128,6 +128,8 @@ public class HardSkillController {
         
         hardskill.setPorcentaje(dtohs.getPorcentaje());
         
+        hardskill.setImg(dtohs.getImg());
+        
         hsservice.guardarHardSkill(hardskill);
         
         return new ResponseEntity(new Message("Hard Skill Actualizado"), HttpStatus.OK);

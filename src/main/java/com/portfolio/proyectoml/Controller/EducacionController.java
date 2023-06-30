@@ -92,7 +92,7 @@ public class EducacionController {
             
         }
         
-        Educacion education = new Educacion(dtoeduc.getInstitucion(), dtoeduc.getAnioInicio(), dtoeduc.getAnioFin(), dtoeduc.getTitulo_obtenido(), dtoeduc.getImg());
+        Educacion education = new Educacion(dtoeduc.getInstitucion(), dtoeduc.getAnioInicio(), dtoeduc.getAnioFin(), dtoeduc.getTitulo_obtenido());
         
         educationservice.guardarEducacion(education);
         

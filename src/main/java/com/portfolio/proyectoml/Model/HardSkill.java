@@ -24,6 +24,7 @@ public class HardSkill {
         this.habilidad = habilidad;
         this.porcentaje = porcentaje;
         this.img = img;
+        
     }
 
     public int getId() {
@@ -57,6 +58,8 @@ public class HardSkill {
     public void setImg(String img) {
         this.img = img;
     }
+
+    
     
     
 

@@ -14,18 +14,18 @@ public class Proyectos {
     
     private int id;
     private String nombre;
-    private String img;
     private String descripcion;
     private String link;
+    private String img;
 
     public Proyectos() {
     }
 
-    public Proyectos(String nombre, String img, String descripcion, String link) {
+    public Proyectos(String nombre, String descripcion, String link, String img) {
         this.nombre = nombre;
-        this.img = img;
         this.descripcion = descripcion;
         this.link = link;
+        this.img = img;
     }
 
     public int getId() {
@@ -44,14 +44,6 @@ public class Proyectos {
         this.nombre = nombre;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-
     public String getDescripcion() {
         return descripcion;
     }
@@ -66,6 +58,14 @@ public class Proyectos {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 
     

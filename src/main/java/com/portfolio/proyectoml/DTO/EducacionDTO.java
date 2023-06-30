@@ -10,17 +10,17 @@ public class EducacionDTO {
     private String anioInicio;
     private String anioFin;
     private String titulo_obtenido;
-    private String img;
+    
 
     public EducacionDTO() {
     }
 
-    public EducacionDTO(String institucion, String anioInicio, String anioFin, String titulo_obtenido, String img) {
+    public EducacionDTO(String institucion, String anioInicio, String anioFin, String titulo_obtenido) {
         this.institucion = institucion;
         this.anioInicio = anioInicio;
         this.anioFin = anioFin;
         this.titulo_obtenido = titulo_obtenido;
-        this.img = img;
+  
     }
 
     public String getInstitucion() {
@@ -55,13 +55,6 @@ public class EducacionDTO {
         this.titulo_obtenido = titulo_obtenido;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
 
     
 

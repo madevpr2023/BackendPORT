@@ -5,18 +5,18 @@ package com.portfolio.proyectoml.DTO;
 public class ProyectosDTO {
     
     private String nombre;
-    private String img;
     private String descripcion;
     private String link;
+    private String img;
 
     public ProyectosDTO() {
     }
 
-    public ProyectosDTO(String nombre, String img, String descripcion, String link) {
+    public ProyectosDTO(String nombre,String descripcion, String link, String img) {
         this.nombre = nombre;
-        this.img = img;
         this.descripcion = descripcion;
         this.link = link;
+        this.img = img;
     }
 
     public String getNombre() {
@@ -25,14 +25,6 @@ public class ProyectosDTO {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
     }
 
     public String getDescripcion() {
@@ -49,6 +41,14 @@ public class ProyectosDTO {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 
     
