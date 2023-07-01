@@ -88,7 +88,7 @@ public class ProyectosController {
             
         }
         
-        Proyectos project = new Proyectos(dtopr.getNombre(), dtopr.getDescripcion() ,dtopr.getLink(), dtopr.getImg());
+        Proyectos project = new Proyectos(dtopr.getNombre(), dtopr.getDescripcion() ,dtopr.getLink());
         
         proyservice.guardarProyectos(project);
         
@@ -122,9 +122,7 @@ public class ProyectosController {
         Proyectos proyectos = proyservice.ObtenerId(id).get();
         
         proyectos.setNombre(dtopr.getNombre());
-        
-        proyectos.setImg(dtopr.getImg());
-        
+         
         proyectos.setDescripcion(dtopr.getDescripcion());
         
         proyectos.setLink(dtopr.getLink());

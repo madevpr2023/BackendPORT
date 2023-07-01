@@ -90,7 +90,7 @@ public class HardSkillController {
             
         }
         
-        HardSkill hardskill = new HardSkill(dtohss.getHabilidad(), dtohss.getPorcentaje(), dtohss.getImg());
+        HardSkill hardskill = new HardSkill(dtohss.getHabilidad(), dtohss.getPorcentaje());
         
         hsservice.guardarHardSkill(hardskill);
         
@@ -127,8 +127,6 @@ public class HardSkillController {
         hardskill.setHabilidad(dtohs.getHabilidad());
         
         hardskill.setPorcentaje(dtohs.getPorcentaje());
-        
-        hardskill.setImg(dtohs.getImg());
         
         hsservice.guardarHardSkill(hardskill);
         

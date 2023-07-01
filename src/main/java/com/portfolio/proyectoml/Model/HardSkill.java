@@ -15,15 +15,15 @@ public class HardSkill {
     private int id;
     private String habilidad;
     private int porcentaje;
-    private String img;
+  
 
     public HardSkill() {
     }
 
-    public HardSkill(String habilidad, int porcentaje, String img) {
+    public HardSkill(String habilidad, int porcentaje) {
         this.habilidad = habilidad;
         this.porcentaje = porcentaje;
-        this.img = img;
+        
         
     }
 
@@ -51,13 +51,7 @@ public class HardSkill {
         this.porcentaje = porcentaje;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+    
 
     
     

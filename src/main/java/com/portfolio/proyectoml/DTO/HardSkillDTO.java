@@ -5,25 +5,19 @@ public class HardSkillDTO {
     
     private String habilidad;
     private int porcentaje;
-    private String img;
+    
 
     public HardSkillDTO() {
     }
 
-    public HardSkillDTO(String habilidad, int porcentaje, String img) {
+    public HardSkillDTO(String habilidad, int porcentaje) {
         this.habilidad = habilidad;
         this.porcentaje = porcentaje;
-        this.img = img;
+        
         
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+    
 
     public String getHabilidad() {
         return habilidad;

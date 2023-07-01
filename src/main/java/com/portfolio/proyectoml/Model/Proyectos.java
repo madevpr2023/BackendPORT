@@ -16,16 +16,16 @@ public class Proyectos {
     private String nombre;
     private String descripcion;
     private String link;
-    private String img;
+   
 
     public Proyectos() {
     }
 
-    public Proyectos(String nombre, String descripcion, String link, String img) {
+    public Proyectos(String nombre, String descripcion, String link) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.link = link;
-        this.img = img;
+        
     }
 
     public int getId() {
@@ -60,13 +60,7 @@ public class Proyectos {
         this.link = link;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+    
 
     
     
